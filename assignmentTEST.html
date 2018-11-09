@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Paint </title>
+    <link rel="stylesheet" href="./css/paint.css">
+</head>
+
+<body>
+
+    <div class="whole">
+        <div class="sidebar">
+            <div class="palet">
+                <button class="color orange pointer"></button>
+                <button class="color red pointer "></button>
+                <button class="color blue pointer"></button>
+                <button class="color green pointer"></button>
+                <button class="color yellow pointer"></button>
+                <button class="color pink pointer"></button>
+                <input class="jscolor pointer" value="ab2567" id="colorSelector"> 
+                <button id="submit" class="pointer">Enter color! </button>
+            </div>
+
+            <div class="features">
+                  <div class="together">  
+                    <button type="button" id="circle" class="pointer"> </button>
+                    <button type="button" id="square" class="pointer"> </button>
+                </div>  
+                    
+                    <input type="image" class="eraser white pointer button" src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Eraser_icon.svg/2000px-Eraser_icon.svg.png'>
+                    <input type="range" min="1" max="100" value="50" class="slider button pointer font-size" id="myRange">
+                    <button type="button" class="clear button pointer box"> clear</button>
+                    <button type="button" class="save button pointer box"> save</button>
+            </div>
+        </div>
+
+        <div id="board"> </div>
+    </div>
+
+    </div>
+   
+</body>
+
+<script src="./js/paint.js"></script>
+<script src="./js/jscolor.js"></script>
+</html>
